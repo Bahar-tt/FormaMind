@@ -1,9 +1,10 @@
 tasks = []
+
 def show_tasks():
     if tasks:
         print("Tasks to do:")
         for index, task in enumerate(tasks, 1):
-            print(f"{index}. {tasks}")
+            print(f"{index}. {task}")
     else:
         print("No tasks to show!")
 
@@ -16,7 +17,7 @@ def remove_task(index):
         task = tasks.pop(index - 1)
         print(f"Task '{task}' removed.")
     except IndexError:
-        print("Invalid ttask number.")
+        print("Invalid task number.")
 
 def main():
     while True:
@@ -31,7 +32,7 @@ def main():
         if choice == "1":
             show_tasks()
         elif choice == "2":
-            task = input("Enter the tak: ")
+            task = input("Enter the task: ")
             add_task(task)
         elif choice == "3":
             show_tasks()
@@ -46,4 +47,5 @@ def main():
         else:
             print("Invalid choice. Please try again!")
 
-if __name__ == "__main__": main
+if __name__ == "__main__":
+    main()
