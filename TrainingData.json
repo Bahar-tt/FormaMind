@@ -1,0 +1,29 @@
+[
+    {
+        "language": "fa",
+        "goal": "emotion",
+        "feeling": "نگران",
+        "suggesion": "یه مدیتیشن کوتاه انجام بده و تمرکز کن روی نفس هات، نفس عمیق عزیزم"
+    },
+    {
+        
+        "language": "fa",
+        "goal": "body",
+        "feeling": "خسته",
+        "suggesion": "امروز فقط یه کشش ملایم انجام بده، به بدنت گوش بده مهربونم"
+    },
+    {
+        
+        "language": "en",
+        "goal": "emotion",
+        "feeling": "anxious",
+        "suggesion": "Try a quick breathing exercise and relax your shoulders."
+    },
+    {
+        
+        "language": "en",
+        "goal": "body",
+        "feeling": "tired",
+        "suggesion": "Takea gentle stretch today, listen to your body."
+    }
+]
