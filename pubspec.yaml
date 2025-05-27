@@ -1,0 +1,86 @@
+name: formamind
+description: A comprehensive fitness and mindfulness application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  http: ^1.1.0
+  flutter_svg: ^2.0.7
+  lottie: ^2.6.0
+  google_fonts: ^5.1.0
+  flutter_animate: ^4.2.0
+  cached_network_image: ^3.2.3
+  flutter_staggered_animations: ^1.1.1
+  flutter_riverpod: ^2.3.6
+  freezed_annotation: ^2.3.0
+  json_annotation: ^4.8.1
+  dio: ^5.3.2
+  flutter_secure_storage: ^8.0.0
+  connectivity_plus: ^4.0.2
+  flutter_local_notifications: ^15.1.0+1
+  camera: ^0.10.5+2
+  image_picker: ^1.0.2
+  video_player: ^2.7.2
+  chewie: ^1.7.1
+  charts_flutter: ^0.12.0
+  fl_chart: ^0.63.0
+  intl: ^0.18.1
+  url_launcher: ^6.1.12
+  share_plus: ^7.1.0
+  path_provider: ^2.1.1
+  permission_handler: ^10.4.3
+  flutter_native_splash: ^2.3.2
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.6
+  freezed: ^2.4.1
+  json_serializable: ^6.7.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+    - translations/
+
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazir.ttf
+        - asset: assets/fonts/Vazir-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Vazir-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Vazir-Medium.ttf
+          weight: 500
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splash.png
+  android: true
+  ios: true 

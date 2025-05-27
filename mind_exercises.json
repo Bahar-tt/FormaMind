@@ -1,0 +1,101 @@
+{
+    "meditation": {
+        "beginner": [
+            {
+                "name": "Breathing Meditation",
+                "duration": 5,
+                "steps": [
+                    "Find a quiet and comfortable place to sit",
+                    "Close your eyes and take a deep breath",
+                    "Focus on your breath as it goes in and out",
+                    "If your mind wanders, gently bring it back to your breath",
+                    "Continue for 5 minutes"
+                ]
+            },
+            {
+                "name": "Body Scan Meditation",
+                "duration": 10,
+                "steps": [
+                    "Lie down in a comfortable position",
+                    "Close your eyes and take a few deep breaths",
+                    "Start from your toes and move up to your head",
+                    "Notice any tension and try to release it",
+                    "Take your time with each body part"
+                ]
+            }
+        ],
+        "intermediate": [
+            {
+                "name": "Loving-Kindness Meditation",
+                "duration": 15,
+                "steps": [
+                    "Sit comfortably and close your eyes",
+                    "Take a few deep breaths to center yourself",
+                    "Start by sending love to yourself",
+                    "Then extend it to loved ones",
+                    "Finally, extend it to all beings"
+                ]
+            },
+            {
+                "name": "Mindful Walking",
+                "duration": 20,
+                "steps": [
+                    "Find a quiet place to walk",
+                    "Walk slowly and deliberately",
+                    "Focus on the sensation of your feet touching the ground",
+                    "Notice your surroundings without judgment",
+                    "If your mind wanders, bring it back to walking"
+                ]
+            }
+        ]
+    },
+    "cognitive_techniques": [
+        {
+            "name": "Thought Challenging",
+            "steps": [
+                "Identify the negative thought",
+                "Question its validity",
+                "Look for evidence against it",
+                "Consider alternative perspectives",
+                "Replace with a more balanced thought"
+            ]
+        },
+        {
+            "name": "Worry Time",
+            "steps": [
+                "Set aside 15 minutes each day for worrying",
+                "Write down your worries during this time",
+                "Outside of worry time, postpone worries",
+                "Use this time to problem-solve",
+                "End with a relaxation exercise"
+            ]
+        },
+        {
+            "name": "Mindful Observation",
+            "steps": [
+                "Choose an object to observe",
+                "Notice its color, shape, and texture",
+                "Observe without judgment",
+                "Focus on the present moment",
+                "Practice this for 5 minutes"
+            ]
+        }
+    ],
+    "mood_tracking": {
+        "current_mood": "Track your current emotional state",
+        "suggested_activities": [
+            "Take a short walk",
+            "Practice deep breathing",
+            "Write in your journal",
+            "Listen to calming music",
+            "Do some gentle stretching"
+        ],
+        "journal_prompts": [
+            "What emotions am I feeling right now?",
+            "What triggered these emotions?",
+            "How can I respond to these emotions?",
+            "What would help me feel better?",
+            "What am I grateful for today?"
+        ]
+    }
+} 

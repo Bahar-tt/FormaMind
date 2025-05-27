@@ -1,11 +1,10 @@
-from googletrans import Translator
+from translations import translations
 
-translator = Translator()
-
-def translate(text, lang):
-    try:
-        result = translator.translate(text, dest=lang)
-        return result.text
-    except Exception as e:
-        print(f"Translation faild: {e}")
-        return text
+def translate(text, lang="en"):
+    """
+    Translate text to the specified language.
+    If translation is not found, returns the original text.
+    """
+    if lang in translations and text in translations[lang]:
+        return translations[lang][text]
+    return text
