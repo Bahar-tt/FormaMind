@@ -1,10 +1,10 @@
-from translations import translations
+from deep_translator import GoogleTranslator
 
-def translate(text, lang="en"):
-    """
-    Translate text to the specified language.
-    If translation is not found, returns the original text.
-    """
-    if lang in translations and text in translations[lang]:
-        return translations[lang][text]
-    return text
+def translate(text, lang):
+    try:
+        translator = GoogleTranslator(source='auto', target=lang)
+        result = translator.translate(text)
+        return result
+    except Exception as e:
+        print(f"Translation failed: {e}")
+        return text
